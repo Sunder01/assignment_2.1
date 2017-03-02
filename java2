@@ -1,0 +1,154 @@
+1.import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class acad
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		
+		int a=10;
+		int b=20;
+	  System.out.println("SUM is :"+(a+b));
+	}
+}
+	
+2.import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class acad
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+	   	System.out.println("SUM is :"+(a+b));
+	}
+}
+3./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class acad
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+	    sum(a,b);
+	}
+	
+	static void  sum(int a,int b)
+	{
+    System.out.println("First number is :"+a);
+    System.out.println("Second number is :"+b);
+		System.out.println("SUM is :"+(a+b));
+	}
+}
+
+4./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class acad
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int count=0,count1=0;
+		a=a+1;
+	   while(a<b)
+	   {
+	   	  if((a%2)==0)
+	   	  count++;
+	   	  else
+	   	  count1++;
+	   	  
+	   	 a++;
+	   }
+	   System.out.println("number of odd "+count1+"number of even "+count);
+	}
+	
+}
+5./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class acad
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(a+"X"+i+"="+(a*i));
+		}
+	}
+	
+}
+6.
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class acad
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+	    sum(a,b);
+      sum(a);
+	}
+	
+	static void  sum(int a,int b)
+	{
+    System.out.println("First number is :"+a);
+    System.out.println("Second number is :"+b);
+		System.out.println("SUM is :"+(a+b));
+	}
+	static void  sum(int a)
+	{
+		System.out.println(a);
+	}
+}
+7.Yes,it can be over loaded only the arguements must difffer
+8.
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	     int[] a = new int[5];
+	     for(int i=1;i<=5;i++)
+	     {
+	     	a[i] = i;
+	     }
+	     Arrays.sort(a, Collections.reverseOrder());
+	     System.out.println(a);
+	}
+}
